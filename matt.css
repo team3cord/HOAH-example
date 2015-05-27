@@ -1,0 +1,32 @@
+
+@media only screen and (max-width: 401px){
+
+    #div__header, #div__body, #div__footer {
+        width: 100%!important;
+    }
+    #toplogo #logodiv img {
+        width: 95%;
+    }
+    #topred {
+        height: 65px;
+        font-size: 11px;
+    }
+    #topcontrols {
+        float: left;
+        font-size: 11px;
+        margin: 15px 0 0 11px;
+    }
+    #mainMenu {
+        display: none;
+    }
+    #div__body {
+        background: none;
+        background-color: #ff00ff;
+    }
+    table#pageContent, div#bcrumbs, div#fauxcrumbs {
+        width: 95%!important;
+    }
+    table#wrapper, td#leftside {
+        width: 95%!important;
+    }
+}
