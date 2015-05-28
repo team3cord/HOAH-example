@@ -5,13 +5,26 @@
         display: block;
     }
 
-    #div__header, #div__body, #div__footer {
+    #div__header, #div__body  {
         width: 100%!important;
+        border: none;
+    }
+    #toplogo {
+        position: fixed;  /* UN FIXED */
     }
     #toplogo #logodiv img {
         width: 95%;
     }
+    #headersearchtext {
+        width: 70%!important;
+        float: left!important;
+        text-align: center!important;
+    }
+    #headersearchtext form#emailreg div {
+        display: none;
+    }
     #topred {
+        padding-top: 147px;  /* UN FIXED */
         height: 65px;
         font-size: 11px;
     }
@@ -28,6 +41,9 @@
     }
     table#pageContent, div#bcrumbs, div#fauxcrumbs {
         width: 93%!important;
+    }
+    #crumbtrail {
+        width: 100%!important;
     }
     table#wrapper, td#leftside, td#leftside table {
         width: 100%!important;
@@ -75,7 +91,20 @@
         border: none;
         border-top: none;
     }
-
+    div.footerBlock:first-of-type {display:none;}
+    #div__footer {
+        width: 97%!important;
+        padding-left: 3%;
+        border: none;
+    }
+    .footerRightBlock{
+        float: left!important;
+        margin-left: 65px!important;
+        margin-top: 25px!important;
+    }
+    #div__footer p {
+        width: 97%!important;
+    }
 }
 
 /* page-wrap
