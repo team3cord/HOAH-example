@@ -1,0 +1,10 @@
+#toplogo, #topred, #mainMenu, div#bcrumbs, #div__footer,a#shippingbanner,#BN_HomeGuide{
+display:none;
+}
+#div__body{
+border: none;
+background: none;
+}
+#printlogo {
+display: block;
+}

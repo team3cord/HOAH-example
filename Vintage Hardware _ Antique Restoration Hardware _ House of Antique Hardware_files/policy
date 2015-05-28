@@ -1,0 +1,10 @@
+
+
+
+
+
+
+var basePolicyJSON = '{\"guide\":{\"fmt\":\"results2\",\"ok\":true},\"baynoteObserver\":{\"dt\":22,\"so\":true,\"uhd\":false,\"cds\":true,\"eec\":true,\"cdt\":true,\"hn\":\"handler2.js\",\"ec\":true,\"uca\":\"315360000000\",\"alt\":true,\"om\":2,\"ub\":false,\"ep\":50,\"sv\":true,\"sdl\":false,\"ok\":true,\"st\":true},\"search\":{\"ok\":true},\"customScript\":{\"hn\":\"custom-script.js\"},\"trail\":{\"tl\":5,\"so\":false,\"ok\":false},\"GuideSet\":{\"eids\":[\"TierGuide\",\"ListingGuide\",\"HomeGuide\",\"BN_HomeTestGuide_1\",\"ProductGuide\",\"BN_SearchGuideListing_1\",\"SearchListing\",\"SearchGuide\",\"BN_ItemGuideTest_under10\",\"BN_ItemGuide_under10\",\"BN_ItemGuide_\",\"BN_EmailGuide_\",\"BN_ItemGuideTest_\",\"BN_ListingGuide_\",\"BN_SearchGuide_\",\"BN_HomeGuide\",\"BN_reproduction\",\"BN_ItemGuide_under10_CL\",\"BN_ItemGuide_CL\",\"BN_TierGuide_\",\"BN_TierGuide_under10\",\"BN_Jon_Test\",\"BN_TierGuide_New2\",\"BN_testMB\",\"BN_TierGuide_under10_2\",\"BN_TierGuide_Large\",\"BN_TierGuide_Mid\",\"BN_TierGuide_New\",\"BN_TierGuide_Small\",\"BN_TierGuide_anyprice\",\"BN_TierGuide_anyprice_Lrg\",\"BN_HomeGuideNewItems\",\"BN_StyleGuide_test\",\"BN_StyleGuide_Colonial\",\"BN_StyleGuide_ArtDeco\",\"BN_StyleGuide_Victorian\",\"BN_StyleGuide_Romantic\",\"BN_StyleGuide_MidCentury\",\"BN_StyleGuide_ArtsCrafts\",\"BN_StyleGuide_Classical\"]},\"inf\":{\"dt\":\"Thu Mar 19 21:44:30 PDT 2015\",\"exp\":86400,\"u\":\"ANONYMOUS\",\"cn\":\"hoah\",\"ve\":\"V1\",\"cc\":\"www\",\"cd\":\"d&g&s\"},\"baynoteGuide\":{\"ok\":true},\"guidePro\":{\"ok\":true}}';
+var userPolicyJSON = '{\"dir\":{\"au\":true},\"inf\":{\"dt\":\"Tue May 26 20:44:31 PDT 2015\",\"u\":\"6925624331660081152\",\"ve\":\"V1\",\"cd\":\"d&g&s\"}}';
+bnPolicy.registerPolicy(basePolicyJSON, userPolicyJSON);
+

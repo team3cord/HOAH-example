@@ -1,0 +1,30 @@
+
+<!-- saved from url=(0071)https://checkout.netsuite.com/c.411534/site/includes/setHomeCookie.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script language="javascript">
+function setCookie(c_name,value,expiredays, path, domain, secure)
+{
+var exdate=new Date();
+exdate.setDate(exdate.getDate()+expiredays);
+
+var cookie_string = c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toGMTString());
+
+  if ( path )
+        cookie_string += "; path=" + escape ( path );
+
+  if ( domain )
+        cookie_string += "; domain=" + escape ( domain );
+  
+  if ( secure )
+        cookie_string += "; secure";
+
+document.cookie=cookie_string;
+}
+setCookie ("visited", "home", 30, "/", "netsuite.com");
+</script>
+<!-- 33 s: 70% #11 co: 6% #8-->
+<!-- [ a.j29.sv ] [ 2015.1.0.86 ]-->
+<!-- [ 411534 ] [  ] [ /s.nl ] [ Tue May 26 20:11:16 PDT 2015 ] -->
+<!-- Not logging slowest SQL -->
+
+</head><body></body></html>
