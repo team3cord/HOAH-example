@@ -1,6 +1,10 @@
 
 @media only screen and (max-width: 401px){
 
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
     #div__header, #div__body, #div__footer {
         width: 100%!important;
     }
@@ -21,17 +25,60 @@
     }
     #div__body {
         background: none;
-        background-color: #ff00ff;
     }
     table#pageContent, div#bcrumbs, div#fauxcrumbs {
-        width: 95%!important;
+        width: 93%!important;
     }
-    table#wrapper, td#leftside {
-        width: 95%!important;
+    table#wrapper, td#leftside, td#leftside table {
+        width: 100%!important;
     }
+    .homeLinkBox {
+        display: block;
+        float: left;
+        width: 48%;
+        min-height: 200px;
+        padding: 0 1%!important;
+        border: none!important;
+    }
+    .homeLinkBox img {
+        width: 100%;
+    }
+    td#rightside img {
+        width: 100%;
+        height: 184px;
+    }
+    .matt_override {width: 100%!important;}
+    #BN_HomeGuide {
+        width: 100%;
+        height: inherit;
+        background: none;
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px dotted #D5D3AA;
+    }
+    #bn_placeholder0:nth-of-type(2n) {display: none;}
+    #BN_HomeGuide .bn_g_welcome {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 0;
+        padding-top: 25px;
+        background-color: #F7F7DD;
+    }
+    #BN_HomeGuide #bn_g_result0_1 {
+        border-top: none;
+    }
+    #BN_HomeGuide .bn_g_result {
+        display: block;
+        float: left;
+        width: 43%;
+        height: 185px;
+        border: none;
+        border-top: none;
+    }
+
 }
 
-* page-wrap  
+/* page-wrap
 * change html  
 * create new js  
-* ?
+*/
