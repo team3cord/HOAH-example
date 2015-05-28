@@ -1,4 +1,4 @@
-
+.mobile-menu {display: none;}
 @media only screen and (max-width: 401px){
 
     table, thead, tbody, th, td, tr {
@@ -22,6 +22,17 @@
     }
     #headersearchtext form#emailreg div {
         display: none;
+    }
+    .mobile-menu {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+    .hamburger {
+        margin-left: 30px;
+        font-size: 50px;
+        text-decoration: none;
+        color: #ffffff;
     }
     #topred {
         padding-top: 147px;  /* UN FIXED */
