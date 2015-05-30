@@ -6,3 +6,5 @@ jQuery(document).ready(function(){
          jQuery('#mainMenu').slideToggle('slow');
    });
 });
+
+// add in the hamburger menu with JS instead of in the HTML  
