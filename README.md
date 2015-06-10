@@ -7,7 +7,7 @@ External JavaScript to create a mobile responsive home page for HOAH.
 
 ---  
 
-![HOAH responsive example screenshot](hoah.png)  
+![HOAH responsive example screenshot](hoah-mobile.png)  
 
 
 
